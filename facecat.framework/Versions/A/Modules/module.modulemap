@@ -1,0 +1,6 @@
+framework module facecat {
+  umbrella header "facecat.h"
+
+  export *
+  module * { export * }
+}

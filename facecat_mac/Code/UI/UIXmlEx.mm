@@ -78,9 +78,10 @@ namespace FaceCat{
         int typeLen = (int)type.length();
         switch (typeLen)
         {
+            case 4:
             case 5:
                 {
-                    if (type == L"input")
+                    if (type == L"input" || type == L"view")
                     {
                         HashMap<String, String> attributes = getAttributes(node);
                         if (attributes.containsKey(L"type"))

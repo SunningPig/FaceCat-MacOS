@@ -2003,8 +2003,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "470"
-            endingLineNumber = "470"
+            startingLineNumber = "469"
+            endingLineNumber = "469"
             landmarkName = "ContextPaint::drawImage(imagePath, rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -2013,22 +2013,6 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "CCAE327D-F726-4C48-9D3F-7D336D995FAA"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "facecat_mac/Mac/ContextPaint.mm"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "472"
-            endingLineNumber = "472"
-            landmarkName = "ContextPaint::drawImage(imagePath, rect)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C04339EE-5319-4BD6-93AE-CCF33CAAC74C"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -2044,6 +2028,22 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "C04339EE-5319-4BD6-93AE-CCF33CAAC74C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "facecat_mac/Mac/ContextPaint.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "470"
+            endingLineNumber = "470"
+            landmarkName = "ContextPaint::drawImage(imagePath, rect)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             uuid = "F77A0843-B7D3-4344-B462-36AB5BAC2B6F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -2051,8 +2051,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "476"
-            endingLineNumber = "476"
+            startingLineNumber = "475"
+            endingLineNumber = "475"
             landmarkName = "ContextPaint::drawImage(imagePath, rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -3891,8 +3891,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "563"
-            endingLineNumber = "563"
+            startingLineNumber = "562"
+            endingLineNumber = "562"
             landmarkName = "IOSHost::invoke(view, args)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4516,8 +4516,8 @@
             filePath = "facecat_mac/Code/UI/RibbonButton.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "RibbonButton::onPaintBackground(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4532,8 +4532,8 @@
             filePath = "facecat_mac/Code/UI/RibbonButton.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "RibbonButton::onPaintBackground(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4548,8 +4548,8 @@
             filePath = "facecat_mac/Code/UI/RibbonButton.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "RibbonButton::onPaintBackground(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -5812,8 +5812,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1112"
-            endingLineNumber = "1112"
+            startingLineNumber = "1111"
+            endingLineNumber = "1111"
             landmarkName = "ContextPaint::getColor(dwPenColor)"
             landmarkType = "7">
          </BreakpointContent>
@@ -5828,8 +5828,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1113"
-            endingLineNumber = "1113"
+            startingLineNumber = "1112"
+            endingLineNumber = "1112"
             landmarkName = "ContextPaint::getColor(dwPenColor)"
             landmarkType = "7">
          </BreakpointContent>
@@ -5940,8 +5940,8 @@
             filePath = "facecat_mac/Code/UI/FCDraw.h"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "MyColor"
             landmarkType = "3">
          </BreakpointContent>
@@ -6067,8 +6067,8 @@
             filePath = "facecat_mac/Code/UI/FCDraw.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "961"
-            endingLineNumber = "961"
+            startingLineNumber = "960"
+            endingLineNumber = "960"
             landmarkName = "MyColor::getUserColor(color)"
             landmarkType = "7">
          </BreakpointContent>
@@ -6083,8 +6083,8 @@
             filePath = "facecat_mac/Code/UI/FCDraw.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "MyColor::setStyle(value)"
             landmarkType = "7">
          </BreakpointContent>
@@ -6800,8 +6800,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "-clearAll"
             landmarkType = "7">
          </BreakpointContent>
@@ -7584,8 +7584,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "-onLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -7600,8 +7600,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "375"
-            endingLineNumber = "375"
+            startingLineNumber = "374"
+            endingLineNumber = "374"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -8096,8 +8096,8 @@
             filePath = "facecat_mac/ViewController.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -8752,8 +8752,8 @@
             filePath = "facecat_mac/AppDelegate.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "-applicationShouldTerminateAfterLastWindowClosed:"
             landmarkType = "7">
          </BreakpointContent>
@@ -9408,8 +9408,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "407"
-            endingLineNumber = "407"
+            startingLineNumber = "406"
+            endingLineNumber = "406"
             landmarkName = "-rightMouseDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -9424,8 +9424,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "386"
-            endingLineNumber = "386"
+            startingLineNumber = "385"
+            endingLineNumber = "385"
             landmarkName = "-mouseDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -9440,10 +9440,10 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "376"
-            endingLineNumber = "376"
-            landmarkName = "FCUIView"
-            landmarkType = "3">
+            startingLineNumber = "375"
+            endingLineNumber = "375"
+            landmarkName = "-keyDown:"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -9456,10 +9456,10 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "377"
-            endingLineNumber = "377"
-            landmarkName = "-keyUp:"
-            landmarkType = "7">
+            startingLineNumber = "376"
+            endingLineNumber = "376"
+            landmarkName = "FCUIView"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -9520,8 +9520,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "393"
-            endingLineNumber = "393"
+            startingLineNumber = "392"
+            endingLineNumber = "392"
             landmarkName = "-mouseDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -9600,8 +9600,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "256"
-            endingLineNumber = "256"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
             landmarkName = "IOSHost::createInternalView(parent, clsid)"
             landmarkType = "7">
          </BreakpointContent>
@@ -9616,8 +9616,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -9632,8 +9632,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -9648,8 +9648,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -9696,8 +9696,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "568"
-            endingLineNumber = "568"
+            startingLineNumber = "567"
+            endingLineNumber = "567"
             landmarkName = "-resetScaleSize"
             landmarkType = "7">
          </BreakpointContent>
@@ -9712,10 +9712,10 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "563"
-            endingLineNumber = "563"
-            landmarkName = "-setScaleFactor:"
-            landmarkType = "7">
+            startingLineNumber = "562"
+            endingLineNumber = "562"
+            landmarkName = "FCUIView"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -9728,8 +9728,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "564"
-            endingLineNumber = "564"
+            startingLineNumber = "563"
+            endingLineNumber = "563"
             landmarkName = "-setScaleFactor:"
             landmarkType = "7">
          </BreakpointContent>
@@ -11104,8 +11104,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "383"
-            endingLineNumber = "383"
+            startingLineNumber = "382"
+            endingLineNumber = "382"
             landmarkName = "-keyUp:"
             landmarkType = "7">
          </BreakpointContent>
@@ -11504,8 +11504,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "368"
-            endingLineNumber = "368"
+            startingLineNumber = "367"
+            endingLineNumber = "367"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -11520,8 +11520,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "371"
-            endingLineNumber = "371"
+            startingLineNumber = "370"
+            endingLineNumber = "370"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -11776,8 +11776,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "818"
-            endingLineNumber = "818"
+            startingLineNumber = "817"
+            endingLineNumber = "817"
             landmarkName = "ContextPaint::drawTextAutoEllipsis(strText, dwPenColor, font, rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -11840,8 +11840,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "814"
-            endingLineNumber = "814"
+            startingLineNumber = "813"
+            endingLineNumber = "813"
             landmarkName = "ContextPaint::drawTextAutoEllipsis(strText, dwPenColor, font, rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -11850,22 +11850,6 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "DE8D4BF4-D98E-4C41-892B-4DE3439E01E5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "facecat_mac/Mac/ContextPaint.mm"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "816"
-            endingLineNumber = "816"
-            landmarkName = "ContextPaint::drawTextAutoEllipsis(strText, dwPenColor, font, rect)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A08C4C89-F6DE-4009-AB21-D6EE7C3160E0"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -11881,6 +11865,22 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "A08C4C89-F6DE-4009-AB21-D6EE7C3160E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "facecat_mac/Mac/ContextPaint.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "814"
+            endingLineNumber = "814"
+            landmarkName = "ContextPaint::drawTextAutoEllipsis(strText, dwPenColor, font, rect)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             uuid = "B283F480-5AE8-4DF3-B342-C7A6D2E46C2E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -11888,8 +11888,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "820"
-            endingLineNumber = "820"
+            startingLineNumber = "819"
+            endingLineNumber = "819"
             landmarkName = "ContextPaint::drawTextAutoEllipsis(strText, dwPenColor, font, rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -11904,8 +11904,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "825"
-            endingLineNumber = "825"
+            startingLineNumber = "824"
+            endingLineNumber = "824"
             landmarkName = "ContextPaint::drawTextAutoEllipsis(strText, dwPenColor, font, rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -11920,8 +11920,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "574"
-            endingLineNumber = "574"
+            startingLineNumber = "573"
+            endingLineNumber = "573"
             landmarkName = "-resetScaleSize"
             landmarkType = "7">
          </BreakpointContent>
@@ -11936,10 +11936,10 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "559"
-            endingLineNumber = "559"
-            landmarkName = "-getScaleFactor"
-            landmarkType = "7">
+            startingLineNumber = "558"
+            endingLineNumber = "558"
+            landmarkName = "FCUIView"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -11952,8 +11952,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "560"
-            endingLineNumber = "560"
+            startingLineNumber = "559"
+            endingLineNumber = "559"
             landmarkName = "-getScaleFactor"
             landmarkType = "7">
          </BreakpointContent>
@@ -13679,8 +13679,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "366"
-            endingLineNumber = "366"
+            startingLineNumber = "365"
+            endingLineNumber = "365"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -14047,8 +14047,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "824"
-            endingLineNumber = "824"
+            startingLineNumber = "823"
+            endingLineNumber = "823"
             landmarkName = "ContextPaint::drawTextAutoEllipsis(strText, dwPenColor, font, rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -14057,6 +14057,22 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "FDCD9A4E-9F7E-4D09-AE01-41B31CE63BAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "facecat_mac/Mac/ContextPaint.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "826"
+            endingLineNumber = "826"
+            landmarkName = "ContextPaint::drawTextAutoEllipsis(strText, dwPenColor, font, rect)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B953C71-C761-4DF8-BCD8-56A00D512929"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -14072,7 +14088,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "4B953C71-C761-4DF8-BCD8-56A00D512929"
+            uuid = "7A793D6B-E333-491D-874D-8CFB2C8F809A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -14081,22 +14097,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "828"
             endingLineNumber = "828"
-            landmarkName = "ContextPaint::drawTextAutoEllipsis(strText, dwPenColor, font, rect)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7A793D6B-E333-491D-874D-8CFB2C8F809A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "facecat_mac/Mac/ContextPaint.mm"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "829"
-            endingLineNumber = "829"
             landmarkName = "ContextPaint::drawTextAutoEllipsis(strText, dwPenColor, font, rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -15583,8 +15583,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -15631,8 +15631,8 @@
             filePath = "facecat_mac/ViewController.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -15903,8 +15903,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
+            startingLineNumber = "248"
+            endingLineNumber = "248"
             landmarkName = "-insertText:replacementRange:"
             landmarkType = "7">
          </BreakpointContent>
@@ -15919,10 +15919,10 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -15935,8 +15935,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -15945,6 +15945,22 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "6EFD4792-D2B2-4CD1-A5AB-111C89586B8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "facecat_mac/Mac/IOSHost.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A6BB5C5-D8C2-4E20-AF6C-8CB60C6EB211"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -15960,22 +15976,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1A6BB5C5-D8C2-4E20-AF6C-8CB60C6EB211"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "facecat_mac/Mac/IOSHost.mm"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
-            landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D8D4381B-74CE-4996-9493-A18942DC4C8F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -15983,8 +15983,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "271"
-            endingLineNumber = "271"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -15999,8 +15999,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "303"
-            endingLineNumber = "303"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -16009,6 +16009,38 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "DC1D03D6-98D6-489E-BF0E-833A8AD39058"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "facecat_mac/Mac/FCUIView.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "331"
+            endingLineNumber = "331"
+            landmarkName = "-keyDown:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "178E2CA5-10A7-45A1-BAEF-2F1B3ABAF66E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "facecat_mac/Mac/FCUIView.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "320"
+            endingLineNumber = "320"
+            landmarkName = "-keyDown:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAA49998-6B04-4BBE-8ECA-CEC7EFCA6987"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -16024,38 +16056,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "178E2CA5-10A7-45A1-BAEF-2F1B3ABAF66E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "facecat_mac/Mac/FCUIView.mm"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "321"
-            endingLineNumber = "321"
-            landmarkName = "-keyDown:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AAA49998-6B04-4BBE-8ECA-CEC7EFCA6987"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "facecat_mac/Mac/FCUIView.mm"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "333"
-            endingLineNumber = "333"
-            landmarkName = "-keyDown:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "F1BDFCAF-9FB1-4097-B952-11CE14345862"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -16063,8 +16063,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "272"
-            endingLineNumber = "272"
+            startingLineNumber = "271"
+            endingLineNumber = "271"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -17103,8 +17103,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "583"
-            endingLineNumber = "583"
+            startingLineNumber = "582"
+            endingLineNumber = "582"
             landmarkName = "IOSHost::isKeyPress(key)"
             landmarkType = "7">
          </BreakpointContent>
@@ -18751,8 +18751,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "464"
-            endingLineNumber = "464"
+            startingLineNumber = "463"
+            endingLineNumber = "463"
             landmarkName = "-mouseDragged:"
             landmarkType = "7">
          </BreakpointContent>
@@ -18975,8 +18975,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "270"
-            endingLineNumber = "270"
+            startingLineNumber = "269"
+            endingLineNumber = "269"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -19087,8 +19087,8 @@
             filePath = "facecat_mac/Code/UI/FCDraw.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "970"
-            endingLineNumber = "970"
+            startingLineNumber = "969"
+            endingLineNumber = "969"
             landmarkName = "MyColor::getUserColor(color)"
             landmarkType = "7">
          </BreakpointContent>
@@ -19135,8 +19135,8 @@
             filePath = "facecat_mac/Code/UI/FCDraw.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "957"
-            endingLineNumber = "957"
+            startingLineNumber = "956"
+            endingLineNumber = "956"
             landmarkName = "MyColor::getUserColor(color)"
             landmarkType = "7">
          </BreakpointContent>
@@ -19151,8 +19151,8 @@
             filePath = "facecat_mac/Code/UI/FCDraw.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "958"
-            endingLineNumber = "958"
+            startingLineNumber = "957"
+            endingLineNumber = "957"
             landmarkName = "MyColor::getUserColor(color)"
             landmarkType = "7">
          </BreakpointContent>
@@ -19679,8 +19679,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "226"
-            endingLineNumber = "226"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
             landmarkName = "-firstRectForCharacterRange:actualRange:"
             landmarkType = "7">
          </BreakpointContent>
@@ -19695,8 +19695,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
+            startingLineNumber = "226"
+            endingLineNumber = "226"
             landmarkName = "-firstRectForCharacterRange:actualRange:"
             landmarkType = "7">
          </BreakpointContent>
@@ -19711,8 +19711,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "230"
-            endingLineNumber = "230"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
             landmarkName = "-firstRectForCharacterRange:actualRange:"
             landmarkType = "7">
          </BreakpointContent>
@@ -19727,8 +19727,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "228"
-            endingLineNumber = "228"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
             landmarkName = "-firstRectForCharacterRange:actualRange:"
             landmarkType = "7">
          </BreakpointContent>
@@ -21727,8 +21727,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "255"
-            endingLineNumber = "255"
+            startingLineNumber = "254"
+            endingLineNumber = "254"
             landmarkName = "-hasMarkedText"
             landmarkType = "7">
          </BreakpointContent>
@@ -21737,6 +21737,22 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F79D8B77-0D0D-46D0-A124-BB72C68698AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "facecat_mac/Mac/FCUIView.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "273"
+            endingLineNumber = "273"
+            landmarkName = "-keyDown:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9DFC25D-9CDD-4930-97B5-166C62F26F0C"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -21752,22 +21768,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B9DFC25D-9CDD-4930-97B5-166C62F26F0C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "facecat_mac/Mac/FCUIView.mm"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "275"
-            endingLineNumber = "275"
-            landmarkName = "-keyDown:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "A652B38B-24F0-4E7F-B150-8715EBED35FF"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -21775,8 +21775,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "165"
-            endingLineNumber = "165"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
             landmarkName = "-setMarkedText:selectedRange:replacementRange:"
             landmarkType = "7">
          </BreakpointContent>
@@ -21791,8 +21791,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "166"
-            endingLineNumber = "166"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
             landmarkName = "-setMarkedText:selectedRange:replacementRange:"
             landmarkType = "7">
          </BreakpointContent>
@@ -22031,8 +22031,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "637"
-            endingLineNumber = "637"
+            startingLineNumber = "636"
+            endingLineNumber = "636"
             landmarkName = "IOSHost::onPaint(rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -22041,38 +22041,6 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2A3AF3AF-BC6A-4F6E-8A47-FBC47B47127B"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "facecat_mac/Mac/IOSHost.mm"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "631"
-            endingLineNumber = "631"
-            landmarkName = "IOSHost::onPaint(rect)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EF249F6D-7419-441F-8909-C54D885D4DCD"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "facecat_mac/Mac/IOSHost.mm"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "626"
-            endingLineNumber = "626"
-            landmarkName = "IOSHost::onPaint(rect)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "197CA421-1219-4614-BBD0-476462045F7B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -22088,6 +22056,38 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            uuid = "EF249F6D-7419-441F-8909-C54D885D4DCD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "facecat_mac/Mac/IOSHost.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "625"
+            endingLineNumber = "625"
+            landmarkName = "IOSHost::onPaint(rect)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "197CA421-1219-4614-BBD0-476462045F7B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "facecat_mac/Mac/IOSHost.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "629"
+            endingLineNumber = "629"
+            landmarkName = "IOSHost::onPaint(rect)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             uuid = "9A42BBAE-9BC6-4BD1-9777-4567478FB605"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -22095,8 +22095,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
             landmarkName = "-setMarkedText:selectedRange:replacementRange:"
             landmarkType = "7">
          </BreakpointContent>
@@ -22111,8 +22111,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "167"
-            endingLineNumber = "167"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
             landmarkName = "-setMarkedText:selectedRange:replacementRange:"
             landmarkType = "7">
          </BreakpointContent>
@@ -22335,8 +22335,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "337"
-            endingLineNumber = "337"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -22351,8 +22351,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "360"
-            endingLineNumber = "360"
+            startingLineNumber = "359"
+            endingLineNumber = "359"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -22415,8 +22415,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "273"
-            endingLineNumber = "273"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -22431,8 +22431,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "346"
-            endingLineNumber = "346"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -22447,8 +22447,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "359"
-            endingLineNumber = "359"
+            startingLineNumber = "358"
+            endingLineNumber = "358"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -22463,8 +22463,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "335"
-            endingLineNumber = "335"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -22479,8 +22479,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "302"
-            endingLineNumber = "302"
+            startingLineNumber = "301"
+            endingLineNumber = "301"
             landmarkName = "-keyDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -23343,8 +23343,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "600"
-            endingLineNumber = "600"
+            startingLineNumber = "599"
+            endingLineNumber = "599"
             landmarkName = "IOSHost::onPaint(rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23359,8 +23359,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "599"
-            endingLineNumber = "599"
+            startingLineNumber = "598"
+            endingLineNumber = "598"
             landmarkName = "IOSHost::onPaint(rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23375,8 +23375,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "605"
-            endingLineNumber = "605"
+            startingLineNumber = "604"
+            endingLineNumber = "604"
             landmarkName = "IOSHost::onPaint(rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23391,8 +23391,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "617"
-            endingLineNumber = "617"
+            startingLineNumber = "616"
+            endingLineNumber = "616"
             landmarkName = "IOSHost::onPaint(rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23407,8 +23407,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "608"
-            endingLineNumber = "608"
+            startingLineNumber = "607"
+            endingLineNumber = "607"
             landmarkName = "IOSHost::onPaint(rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23423,8 +23423,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "625"
-            endingLineNumber = "625"
+            startingLineNumber = "624"
+            endingLineNumber = "624"
             landmarkName = "IOSHost::onPaint(rect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23439,8 +23439,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "-onPaint:"
             landmarkType = "7">
          </BreakpointContent>
@@ -23983,8 +23983,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -23999,8 +23999,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -24015,8 +24015,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "290"
-            endingLineNumber = "290"
+            startingLineNumber = "289"
+            endingLineNumber = "289"
             landmarkName = "IOSHost::createInternalView(parent, clsid)"
             landmarkType = "7">
          </BreakpointContent>
@@ -24031,8 +24031,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -24047,8 +24047,8 @@
             filePath = "facecat_mac/Mac/IOSHost.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "ScrollButtonM::onPaint(paint, clipRect)"
             landmarkType = "7">
          </BreakpointContent>
@@ -25247,8 +25247,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "738"
-            endingLineNumber = "738"
+            startingLineNumber = "737"
+            endingLineNumber = "737"
             landmarkName = "ContextPaint::drawText(strText, dwPenColor, font, rect, width)"
             landmarkType = "7">
          </BreakpointContent>
@@ -25263,8 +25263,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "797"
-            endingLineNumber = "797"
+            startingLineNumber = "796"
+            endingLineNumber = "796"
             landmarkName = "ContextPaint::drawText(strText, dwPenColor, font, rect, width)"
             landmarkType = "7">
          </BreakpointContent>
@@ -26783,8 +26783,8 @@
             filePath = "facecat_mac/Mac/FCUIView.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "409"
-            endingLineNumber = "409"
+            startingLineNumber = "408"
+            endingLineNumber = "408"
             landmarkName = "-rightMouseDown:"
             landmarkType = "7">
          </BreakpointContent>
@@ -27023,8 +27023,8 @@
             filePath = "facecat_mac/ViewController.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -27745,8 +27745,8 @@
             filePath = "facecat_mac/ViewController.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -27761,8 +27761,8 @@
             filePath = "facecat_mac/Code/UI/FCDraw.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "MyColor::getReverseColor()"
             landmarkType = "7">
          </BreakpointContent>
@@ -29697,8 +29697,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1222"
-            endingLineNumber = "1222"
+            startingLineNumber = "1221"
+            endingLineNumber = "1221"
             landmarkName = "ContextPaint::textSize(strText, font, width)"
             landmarkType = "7">
          </BreakpointContent>
@@ -29713,8 +29713,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1219"
-            endingLineNumber = "1219"
+            startingLineNumber = "1218"
+            endingLineNumber = "1218"
             landmarkName = "ContextPaint::textSize(strText, font, width)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30993,8 +30993,8 @@
             filePath = "facecat_mac/Code/UI/UIXmlEx.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
             landmarkName = "UIXmlEx::loadFile(fileName, view)"
             landmarkType = "7">
          </BreakpointContent>
@@ -31041,8 +31041,8 @@
             filePath = "facecat_mac/Code/UI/UIXmlEx.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "174"
-            endingLineNumber = "174"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "UIXmlEx::loadFile(fileName, view)"
             landmarkType = "7">
          </BreakpointContent>
@@ -31233,8 +31233,8 @@
             filePath = "facecat_mac/Code/UI/UIXmlEx.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "UIXmlEx::onDragIn(files)"
             landmarkType = "7">
          </BreakpointContent>
@@ -32545,8 +32545,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1230"
-            endingLineNumber = "1230"
+            startingLineNumber = "1229"
+            endingLineNumber = "1229"
             landmarkName = "ContextPaint::textSizeF(strText, font, width)"
             landmarkType = "7">
          </BreakpointContent>
@@ -32561,8 +32561,8 @@
             filePath = "facecat_mac/Mac/ContextPaint.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1228"
-            endingLineNumber = "1228"
+            startingLineNumber = "1227"
+            endingLineNumber = "1227"
             landmarkName = "ContextPaint::textSizeF(strText, font, width)"
             landmarkType = "7">
          </BreakpointContent>
@@ -32577,8 +32577,8 @@
             filePath = "facecat_mac/Code/Service/DataCenter.mm"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "DataCenter::getUserPath()"
             landmarkType = "7">
          </BreakpointContent>

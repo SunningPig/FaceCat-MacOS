@@ -31,13 +31,13 @@ namespace FaceCat{
         /**
          * 地址
          */
-        string m_url;
+        std::string m_url;
         /**
          * Timeout时间
          */
         int m_timeout;
     public:
-        vector<FCMessage*> m_messages;
+        std::vector<FCMessage*> m_messages;
         /**
          * 创建HTTP服务
          */
@@ -65,11 +65,11 @@ namespace FaceCat{
         /**
          * 获取地址
          */
-        string getUrl();
+        std::string getUrl();
         /**
          * 设置地址
          */
-        void setUrl(string value);
+        void setUrl(std::string value);
     public:
         /*
          * 获取锁
@@ -89,7 +89,7 @@ namespace FaceCat{
         /*
          * 发送POST数据
          */
-        string post(const String& url, char *sendDatas, int sendSize);
+        std::string post(const String& url, char *sendDatas, int sendSize);
         /*
          * 发送POST数据
          */

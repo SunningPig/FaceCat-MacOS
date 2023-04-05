@@ -87,7 +87,7 @@ namespace FaceCat{
         /*
          * 秒表
          */
-        map<int, FCView*> m_timers;
+        std::map<int, FCView*> m_timers;
         /**
          * 根据触摸位置获取控件
          * @param mp    坐标
@@ -171,7 +171,7 @@ namespace FaceCat{
         /*
          * 镜像
          */
-        vector<FCNative*> m_mirrors;
+        std::vector<FCNative*> m_mirrors;
         /**
          * 正被拖动的控件
          */

@@ -12,7 +12,6 @@
 #include "FCClientService.h"
 #include <string>
 #include <map>
-using namespace std;
 
 #define  COMPRESSTYPE_NONE              0
 #define  COMPRESSTYPE_GZIP              1
@@ -28,7 +27,7 @@ namespace FaceCat{
         /**
          * 套接字ID组
          */
-        vector<int> m_sockets;
+        std::vector<int> m_sockets;
     public:
         /*
         * 创建对象
@@ -47,7 +46,7 @@ namespace FaceCat{
         * 获取套接字列表
         * @param  socketList  套接字列表
         */
-        void getSocketList(vector<int> *socketList);
+        void getSocketList(std::vector<int> *socketList);
         /**
          * 移除套接字ID
          */
@@ -66,11 +65,11 @@ namespace FaceCat{
         /**
          * 压缩类型集合
          */
-        map<int, int> m_compressTypes;
+        std::map<int, int> m_compressTypes;
         /**
          * 监听者集合
          */
-        map<int, FCMessageListener*> m_listeners;
+        std::map<int, FCMessageListener*> m_listeners;
         /**
          * 服务的ID
          */
@@ -82,7 +81,7 @@ namespace FaceCat{
         /**
          * 等待消息队列
          */
-        map<int, FCMessage*> m_waitMessages;
+        std::map<int, FCMessage*> m_waitMessages;
     public:
         /*
         * 锁
@@ -115,7 +114,7 @@ namespace FaceCat{
         * 启动
         * @param  port  端口
         */
-        static int startServer(int port);
+        static int startServer(int port, char *token);
     public:
         /*
         * 构造函数
@@ -187,7 +186,7 @@ namespace FaceCat{
         * 获取所有的服务
         * @param  service  服务
         */
-        static void getServices(vector<FCServerService*> *services);
+        static void getServices(std::vector<FCServerService*> *services);
         /**
         * 保持活跃
         * @param  socketID  套接字ID

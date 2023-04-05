@@ -12,7 +12,6 @@
 #include "FCLock.h"
 #include <string>
 #include <map>
-using namespace std;
 #define  COMPRESSTYPE_NONE			  0
 #define  COMPRESSTYPE_GZIP			  1
 static int m_requestID = 10000;
@@ -85,8 +84,8 @@ namespace FaceCat{
         /**
          * 监听回调列表
          */
-        vector<FCListenerMessageCallBack*> m_callBacks;
-        vector<Object> m_callBackInvokes;
+        std::vector<FCListenerMessageCallBack*> m_callBacks;
+        std::vector<Object> m_callBackInvokes;
     public:
         /**
          * 创建消息监听
@@ -136,7 +135,7 @@ namespace FaceCat{
         /**
          * 监听者集合
          */
-        map<int, FCMessageListener*> m_listeners;
+        std::map<int, FCMessageListener*> m_listeners;
         /**
          * 服务的ID
          */
@@ -144,7 +143,7 @@ namespace FaceCat{
         /**
          * 等待消息队列
          */
-        map<int, FCMessage*> m_waitMessages;
+        std::map<int, FCMessage*> m_waitMessages;
 	public:
         /**
          * 关闭
@@ -163,7 +162,7 @@ namespace FaceCat{
          * @param  proxyDomain  代理域
          * @param  timeout  超时
          */
-        static int connectToServer(int proxyType, const char *ip, int port, const char *proxyIp, int proxyPort, const char *proxyUserName, const char *proxyUserPwd, const char *proxyDomain, int timeout);
+        static int connectToServer(int proxyType, const char *ip, int port, const char *proxyIp, int proxyPort, const char *proxyUserName, const char *proxyUserPwd, const char *proxyDomain, int timeout, char *token);
         /**
          * 注册回调
          */
@@ -245,7 +244,7 @@ namespace FaceCat{
         /**
          * 获取所有的服务
          */
-        static void getServices(vector<FCClientService*> *services);
+        static void getServices(std::vector<FCClientService*> *services);
         /**
          * 保持活跃
          */

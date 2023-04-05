@@ -255,7 +255,7 @@ namespace FaceCat{
         /*
          * 获取程序路径
          */
-        static string getAppPath();
+        static std::string getAppPath();
         /*
          * 获取日期的数值
          */
@@ -293,7 +293,7 @@ namespace FaceCat{
         /*
          * 替换字符串
          */
-        static string replace(const string& str, const string& src, const string& dest);
+        static std::string replace(const std::string& str, const std::string& src, const std::string& dest);
         /*
          * 替换字符串
          */
@@ -312,7 +312,7 @@ namespace FaceCat{
         /*
          * 短字符串转长字符串
          */
-        static String stringToString(const string& strSrc);
+        static String stringToString(const std::string& strSrc);
         /*
          * 转为小写
          */
@@ -324,7 +324,7 @@ namespace FaceCat{
         /*
          * 长字符串转短字符串
          */
-        static string StringTostring(const String& strSrc);
+        static std::string StringTostring(const String& strSrc);
     };
 }
 #endif

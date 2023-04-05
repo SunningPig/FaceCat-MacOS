@@ -9,7 +9,7 @@
 #include "FCFile.h"
 #include "MainFrame.h"
 
-string DataCenter::getGuid()
+std::string DataCenter::getGuid()
 {
     CFUUIDRef puuid = CFUUIDCreate(nil);
     CFStringRef uuidString = CFUUIDCreateString(nil, puuid);
@@ -20,9 +20,9 @@ string DataCenter::getGuid()
     return ret;
 }
 
-static string m_userPath;
+static std::string m_userPath;
 
-string DataCenter::getUserPath(){
+std::string DataCenter::getUserPath(){
     if((int)m_userPath.length() == 0){
         #ifdef DEBUG
         NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);

@@ -12,5 +12,4 @@
     textField.delegate = nsView;
 }
 
-
 @end

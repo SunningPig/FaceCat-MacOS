@@ -18,7 +18,7 @@ namespace FaceCat{
          * 获取网页数据
          * @param  url  地址
          */
-        string get(string url);
+        std::string get(std::string url);
         /**
          * 获取网页数据
          * @param  url  地址

@@ -111,7 +111,7 @@ namespace FaceCat{
         /**
          * 行数
          */
-        vector<FCWordLine> m_lines;
+        std::vector<FCWordLine> m_lines;
         /**
          * 是否多行显示
          */
@@ -127,11 +127,11 @@ namespace FaceCat{
         /**
          * 文字矩形范围
          */
-        vector<FCRectF> m_ranges;
+        std::vector<FCRectF> m_ranges;
         /**
          * 重做栈
          */
-        stack<FCRedoUndoInfo> m_redoStack;
+        std::stack<FCRedoUndoInfo> m_redoStack;
         /**
          * 是否只读
          */
@@ -191,11 +191,11 @@ namespace FaceCat{
         /**
          * 撤销栈
          */
-        stack<FCRedoUndoInfo> m_undoStack;
+        std::stack<FCRedoUndoInfo> m_undoStack;
         /**
          * 文字大小
          */
-        vector<FCSizeF> m_wordsSize;
+        std::vector<FCSizeF> m_wordsSize;
         /**
          * 多行编辑控件是否启动换行
          */
@@ -276,7 +276,7 @@ namespace FaceCat{
         /**
          * 获取行数
          */
-        virtual vector<FCWordLine> getLines();
+        virtual std::vector<FCWordLine> getLines();
         /**
          * 获取是否多行显示
          */

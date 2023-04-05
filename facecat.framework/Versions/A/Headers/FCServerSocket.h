@@ -45,13 +45,14 @@ namespace FaceCat{
     class FCServerSocket{
     public:
         struct sockaddr_in m_servaddr;
-        vector<SOCKDATA*> m_datas;
+        std::vector<SOCKDATA*> m_datas;
         int m_hSocket;
         int m_port;
         int m_state;
         RecvMsg m_recvEvent;
         WriteServerLog m_writeLogEvent;
         int m_newSocket;
+        char m_token[4];
     public:
         /*
         * 创建服务端socket
@@ -97,7 +98,7 @@ namespace FaceCat{
         /*
          * 记录IP的缓存
          */
-        map<string, int> m_ipCaches;
+        std::map<std::string, int> m_ipCaches;
         /*
          * 记录缓存的锁
          */
@@ -113,7 +114,7 @@ namespace FaceCat{
         /*
          * IP黑名单
          */
-        map<string, int> m_blackIPs;
+        std::map<std::string, int> m_blackIPs;
         /*
          * 黑名单的锁
          */
@@ -121,11 +122,11 @@ namespace FaceCat{
         /*
          * 添加IP黑名单
          */
-        void addBlackIP(string ip);
+        void addBlackIP(std::string ip);
         /*
          * 移除IP黑名单
          */
-        void removeBlackIP(string ip);
+        void removeBlackIP(std::string ip);
     };
 }
 #endif

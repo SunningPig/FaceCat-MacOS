@@ -58,7 +58,7 @@ namespace FaceCat{
         /**
          * 复制文本
          */
-        virtual void copy(string text);
+        virtual void copy(std::string text);
         /**
          * 创建内部控件
          */
@@ -110,7 +110,7 @@ namespace FaceCat{
         /**
          * 获取粘贴文本
          */
-        virtual string paste();
+        virtual std::string paste();
         /**
          * 设置是否允许操作
          */

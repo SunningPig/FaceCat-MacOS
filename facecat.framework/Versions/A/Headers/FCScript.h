@@ -231,7 +231,7 @@ namespace FaceCat{
         /*
         * 构造函数
         */
-        CFunction(int id, String name);
+        CFunction(int pID, String name);
         /*
          * 析构函数
          */

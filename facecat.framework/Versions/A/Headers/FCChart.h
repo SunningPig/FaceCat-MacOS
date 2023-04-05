@@ -35,6 +35,10 @@ namespace FaceCat{
          */
         int m_timerID;
     public:
+        /*
+         * 是否允许拖动图层
+         */
+        bool m_allowDragChartDiv;
         /**
          * 数据是否
          */
@@ -202,6 +206,8 @@ namespace FaceCat{
         int m_lastIndexCache;
         int m_secondTouchIndexCache;
         FCPoint m_secondTouchPointCache;
+        int m_firstPaddingTop;
+        int m_firtstPaddingBottom;
     public:
         /**
          * 画细线，只能是水平线或垂直线
@@ -317,7 +323,7 @@ namespace FaceCat{
          */
         virtual void onPaintPolyline(FCPaint *paint, ChartDiv *div, Long lineColor, Long fillColor, int ciClr,
                                      float lineWidth, PolylineStyle lineStyle, double value, AttachVScale attachVScale,
-                                     int scaleX, int lY, int i, vector<FCPoint> *points, int *x, int *y, double visibleMax, double visibleMin);
+                                     int scaleX, int lY, int i, std::vector<FCPoint> *points, int *x, int *y, double visibleMax, double visibleMin);
         /**
          * 绘制拖动的边线
          * @param paint 绘图对象

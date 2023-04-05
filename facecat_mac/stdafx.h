@@ -22,7 +22,6 @@
 #include <cctype>
 #import <Cocoa/Cocoa.h>
 #include <string>
-using namespace std;
 #import <facecat/facecat.h>
 #include "FCLib.h"
 using namespace FaceCat;

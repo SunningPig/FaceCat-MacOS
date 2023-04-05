@@ -8,7 +8,6 @@
 #define __FCCLIENTSOCKETS_H__
 #pragma once
 #include "stdafx.h"
-using namespace std;
 
 namespace FaceCat{
 	typedef void (*RecvMsg)(int socketID, int localSID, const char *str, int len);
@@ -24,7 +23,7 @@ namespace FaceCat{
 		static void writeLog(int socketID, int localSID, int state, const char *log);
 	public:
 		static int close(int socketID);
-		static int connect(int proxyType, const char *ip, int port, const char *proxyIp, int proxyPort, const char *proxyUserName, const char *proxyUserPwd, const char *proxyDomain, int timeout);
+		static int connect(int proxyType, const char *ip, int port, const char *proxyIp, int proxyPort, const char *proxyUserName, const char *proxyUserPwd, const char *proxyDomain, int timeout, char *token);
 		static void registerLog(WriteClientLog writeLogCallBack);
 		static void registerRecv(RecvMsg recvMsgCallBack);
 		static int send(int socketID, const char *str, int len);

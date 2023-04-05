@@ -8,10 +8,22 @@
 #pragma once
 #include "stdafx.h"
 
+/*
+ * 程序入口
+ */
 class DataCenter{
 public:
-    static string getGuid();
-    static string getUserPath();
+    /*
+     * 获取GUID
+     */
+    static std::string getGuid();
+    /*
+     * 获取程序路径
+     */
+    static std::string getUserPath();
+    /*
+     * 启动服务
+     */
     static void startService();
 };
 

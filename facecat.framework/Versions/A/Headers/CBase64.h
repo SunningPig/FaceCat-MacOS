@@ -9,7 +9,6 @@
 #pragma once
 #include "stdafx.h"
 #include <string>
-using namespace std;
 
 namespace FaceCat{
 	class CBase64{
@@ -17,8 +16,8 @@ namespace FaceCat{
 		CBase64();
 	public:
 		virtual ~CBase64();
-		static string encode(const unsigned char *Data,int DataByte);
-		static string decode(const char *Data,int DataByte,int& OutByte);
+		static std::string encode(const unsigned char *Data,int DataByte);
+		static std::string decode(const char *Data,int DataByte,int& OutByte);
 	};
 }
 

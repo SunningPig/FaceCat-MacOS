@@ -176,11 +176,11 @@ namespace FaceCat{
         /**
          * 事件集合
          */
-        map<String, vector<Object>*> m_events;
+        std::map<String, std::vector<Object>*> m_events;
         /*
         * 调用者集合
         */
-        map<String, vector<Object>*> m_invokes;
+        std::map<String, std::vector<Object>*> m_invokes;
         /**
          * 调用事件
          * @param eventName  事件ID

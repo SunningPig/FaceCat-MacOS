@@ -17,7 +17,6 @@
 #include<fcntl.h>
 #include "CBase64.h"
 #include "FCClientSockets.h"
-using namespace std;
 
 namespace FaceCat{
 	enum ConnectStatus{
@@ -89,15 +88,16 @@ namespace FaceCat{
         struct addrinfo hints;
         struct addrinfo *res;
         struct addrinfo *res0;
-		string m_ip;
+		std::string m_ip;
 		u_short m_port;
-		string m_proxyDomain;
+		std::string m_proxyDomain;
 		long m_proxyType;
-		string m_proxyIp;
+		std::string m_proxyIp;
 		u_short m_proxyPort;
-		string m_proxyUserName;
-		string m_proxyUserPwd;
+		std::string m_proxyUserName;
+		std::string m_proxyUserPwd;
         int m_timeout;
+        char m_token[4];
     public:
 		ConnectStatus connectStandard();
         ConnectStatus connectByHttp();
@@ -110,13 +110,13 @@ namespace FaceCat{
 		RecvMsg m_recvEvent;
 		WriteClientLog m_writeLogEvent;
 	public:
-		FCClientSocket(long proxyType, string ip, u_short port, string proxyIp, u_short proxyPort, string proxyUserName, string proxyUserPwd, string proxyDomain, int timeout);
+		FCClientSocket(long proxyType, std::string ip, u_short port, std::string proxyIp, u_short proxyPort, std::string proxyUserName, std::string proxyUserPwd, std::string proxyDomain, int timeout, char *token);
 		virtual ~FCClientSocket();
     public:
 		int close(int socketID);
 		ConnectStatus connect();
 		ConnectStatus connectProxyServer();
-        static string getHostIP(const char* ip);
+        static std::string getHostIP(const char* ip);
 		static int send(int socketID, const char *str, int len);
 		void writeLog(int socketID, int localSID, int state, const char *log);
 	};

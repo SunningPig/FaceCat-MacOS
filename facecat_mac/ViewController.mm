@@ -36,7 +36,7 @@
     mainFrame->setNative(native);
     mainFrame->setScript(new FaceCatScript(mainFrame));
     mainFrame->getEvent()->setScript(mainFrame->getScript());
-    string path = FCTran::getAppPath() + "/Resources/mainframe.xml";
+    std::string path = FCTran::getAppPath() + "/Resources/mainframe.xml";
     String wPath = FCTran::stringToString(path);
     FCSize size = IOSHost::getSize(m_myView.frame.size);
     native->setSize(size);

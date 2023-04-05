@@ -6,14 +6,25 @@
 #import <Foundation/Foundation.h>
 #import <CoreImage/CoreImage.h>
 
+/**
+ * 工具类
+ */
 class MacUtil
 {
 public:
+    /*
+     * 构造函数
+     */
     MacUtil(){}
+    /*
+     * 析构函数
+     */
     virtual ~MacUtil(){}
 public:
-    ///打开文件对话框,新建一个文件,创建成功后retPath 的值为文件保存的路径,返回值为1,反之
-    static int createFile(string *retPath){
+    /*
+     * 打开文件对话框,新建一个文件,创建成功后retPath 的值为文件保存的路径,返回值为1,反之
+     */
+    static int createFile(std::string *retPath){
         NSSavePanel *savePanel = [NSSavePanel savePanel];
         //NSDate *now = [NSDate date];
         //NSDateFormatter *fm = [[NSDateFormatter alloc]init];
@@ -42,8 +53,10 @@ public:
         return 0;
     }
     
-    //文件选择器,int 返回值为文件选择状态
-    static int fileExplore(string &path, BOOL chooseFile){
+    /*
+     * 文件选择器,int 返回值为文件选择状态
+     */
+    static int fileExplore(std::string &path, BOOL chooseFile){
         NSOpenPanel *panel = [NSOpenPanel openPanel];
         [panel setMessage:@"选择一个位置保存"];
         [panel setPrompt:@"确定"];
@@ -71,35 +84,46 @@ public:
         return -1;
     }
     
-    static void openBrowser(const string &url){
+    /*
+     * 打开文件夹
+     */
+    static void openBrowser(const std::string &url){
         NSString *strUrl = [NSString stringWithUTF8String:url.c_str()];
         strUrl = [strUrl stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
         NSURL *nsurl = [NSURL URLWithString:strUrl];
         [[NSWorkspace sharedWorkspace]openURL:nsurl];
     }
     
-    static void showExplore(const string &path){
+    /*
+     * 显示文件
+     */
+    static void showExplore(const std::string &path){
         NSString *nPath = [NSString stringWithUTF8String:path.c_str()];
         [[NSWorkspace sharedWorkspace]openFile:nPath];
     }
     
+    /*
+     * 显示文件
+     */
     static void showExplore(const String &path){
-        string cPath = FCTran::StringTostring(path);
+        std::string cPath = FCTran::StringTostring(path);
         NSString *nPath = [NSString stringWithUTF8String:cPath.c_str()];
         [[NSWorkspace sharedWorkspace]openFile:nPath];
     }
     
-    //如果点击了确定按钮,将返回true,否则返回false
+    /*
+     * 如果点击了确定按钮,将返回true,否则返回false
+     */
     static bool showMessageBox(String title, String message){
         NSAlert *alert = [[NSAlert alloc] init];
-        string wmsg1 = FCTran::StringTostring(title);
+        std::string wmsg1 = FCTran::StringTostring(title);
         alert.window.title = [NSString stringWithUTF8String:wmsg1.c_str()];
         alert.icon = [NSImage imageNamed:@"Tips"];
         [alert addButtonWithTitle:@"确定"];
         [alert addButtonWithTitle:@"取消"];
         [alert setAlertStyle:NSAlertStyleWarning];
         [alert setMessageText:@"提示信息:"];
-        string wmsg = FCTran::StringTostring(message);
+        std::string wmsg = FCTran::StringTostring(message);
         //[alert.window setFrame:CGRectMake(1000.0f, 5.0f, 400.0f, 150.0f) display:false];
         [alert setInformativeText:[NSString stringWithUTF8String:wmsg.c_str()]];
         NSUInteger ret = [alert runModal];
@@ -110,6 +134,9 @@ public:
         return false;
     }
     
+    /*
+     * 显示提示框
+     */
     static bool showMessageBox(String message){
         NSAlert *alert = [[NSAlert alloc] init];
         alert.icon = [NSImage imageNamed:@"Tips"];
@@ -117,7 +144,7 @@ public:
         [alert addButtonWithTitle:@"取消"];
         [alert setAlertStyle:NSAlertStyleWarning];
         [alert setMessageText:@"提示信息:"];
-        string wmsg = FCTran::StringTostring(message);
+        std::string wmsg = FCTran::StringTostring(message);
         [alert setInformativeText:[NSString stringWithUTF8String:wmsg.c_str()]];
         
         NSUInteger ret = [alert runModal];
@@ -128,29 +155,35 @@ public:
         return false;
     }
     
+    /*
+     * 显示警告提示框
+     */
     static void showWarningMessageBox(String title, String message){
         NSAlert *alert = [[NSAlert alloc] init];
-        string wmsg1 = FCTran::StringTostring(title);
+        std::string wmsg1 = FCTran::StringTostring(title);
         alert.window.title = [NSString stringWithUTF8String:wmsg1.c_str()];
         alert.icon = [NSImage imageNamed:@"Tips"];
         [alert addButtonWithTitle:@"确定"];
         [alert setAlertStyle:NSAlertStyleWarning];
         [alert setMessageText:@"提示信息:"];
-        string wmsg = FCTran::StringTostring(message);
+        std::string wmsg = FCTran::StringTostring(message);
         [alert setInformativeText:[NSString stringWithUTF8String:wmsg.c_str()]];
         [alert runModal];
     }
     
+    /*
+     * 显示确认提示框
+     */
     static bool showConfirmMessageBox(String title, String message){
         NSAlert *alert = [[NSAlert alloc] init];
-        string wmsg1 = FCTran::StringTostring(title);
+        std::string wmsg1 = FCTran::StringTostring(title);
         alert.window.title = [NSString stringWithUTF8String:wmsg1.c_str()];
         alert.icon = [NSImage imageNamed:@"Tips"];
         [alert addButtonWithTitle:@"确定"];
         //[alert addButtonWithTitle:@"取消"];
         [alert setAlertStyle:NSAlertStyleWarning];
         [alert setMessageText:@"提示信息:"];
-        string wmsg = FCTran::StringTostring(message);
+        std::string wmsg = FCTran::StringTostring(message);
         [alert setInformativeText:[NSString stringWithUTF8String:wmsg.c_str()]];
         NSUInteger ret = [alert runModal];
         if(ret == NSAlertFirstButtonReturn)
@@ -160,9 +193,12 @@ public:
         return false;
     }
     
+    /*
+     * 输出二维码
+     */
     static void outputQrCode(String url, String savePath){
-        string sUrl = FCTran::StringTostring(url);
-        string sSavePath = FCTran::StringTostring(savePath);
+        std::string sUrl = FCTran::StringTostring(url);
+        std::string sSavePath = FCTran::StringTostring(savePath);
         NSString *nsUrl = [NSString stringWithUTF8String:sUrl.c_str()];
         NSString *nsSavePath = [NSString stringWithUTF8String:sSavePath.c_str()];
         NSImage *image =  qrCodeImageForString(nsUrl, 300);
@@ -179,6 +215,9 @@ public:
         BOOL result = [imageData writeToFile:[[NSString stringWithString:nsSavePath] stringByExpandingTildeInPath]atomically:YES];
     }
     
+    /*
+     * 从文字输出二维码
+     */
     static NSImage* qrCodeImageForString(NSString *string, CGFloat sizeLength){
         CIFilter *qrFilter = [CIFilter filterWithName:@"CIQRCodeGenerator"];
         [qrFilter setDefaults];
@@ -188,6 +227,9 @@ public:
         return qrImage;
     }
     
+    /*
+     * 显示二维码图片
+     */
     static NSImage* createNonInterpolatedUIImageFormCIImage(CIImage *image, CGFloat sizeLength){
         CGRect extent = CGRectIntegral(image.extent);
         CGFloat scale = MIN(sizeLength / CGRectGetWidth(extent), sizeLength / CGRectGetHeight(extent));

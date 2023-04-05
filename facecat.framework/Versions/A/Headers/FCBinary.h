@@ -120,7 +120,7 @@ namespace FaceCat{
         /**
          * 读取字符串数据
          */
-        string readString2();
+        std::string readString2();
         /*
          * 重新开辟内存
          */
@@ -178,7 +178,7 @@ namespace FaceCat{
          * 写入字符串数据
          * @param val   字符串数据
          */
-        unsigned int writeString(const string& strData);
+        unsigned int writeString(const std::string& strData);
     };
 }
 

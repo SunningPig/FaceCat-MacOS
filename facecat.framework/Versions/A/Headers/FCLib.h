@@ -5,7 +5,7 @@
  */
 
 #pragma once
-typedef wstring String;
+typedef std::wstring String;
 typedef long long Long;
 typedef void* Object;
 typedef int Integer;

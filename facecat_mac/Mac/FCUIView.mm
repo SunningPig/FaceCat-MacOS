@@ -18,25 +18,70 @@
 #include "FCFile.h"
 
 @interface FCUIView(){
+    /*
+     * 绘图对象
+     */
     ContextPaint *m_contextPaint;
+    /*
+     * 设备对象
+     */
     IOSHost *m_host;
+    /*
+     * 鼠标左键是否按下
+     */
     bool m_leftIsDown;
+    /*
+     * 方法库
+     */
     FCNative *m_native;
+    /*
+     * 绘图对象
+     */
     FCPaint *m_paint;
+    /*
+     * 鼠标右键是否按下
+     */
     bool m_rightIsDown;
+    /*
+     * XML对象
+     */
     FCUIXml *m_xml;
+    /*
+     * 上次的大小
+     */
     FCSize m_lastSize;
+    /*
+     * 缩放比例
+     */
     double m_scaleFactor;
+    /*
+     * 是否允许缩放
+     */
     BOOL m_allowZoom;
+    /*
+     * 是否可以移动
+     */
     BOOL m_canMove;
+    /*
+     * 窗体
+     */
     NSWindow *m_window;
+    /*
+     * 标记文字的长度
+     */
     int m_markedLength;
+    /*
+     * 标记文字
+     */
     String m_markText;
 }
 @end
 
 @implementation FCUIView
 
+/*
+ * 秒表方法
+ */
 - (void)printString:(NSString*)paramString{
     if(m_host){
         m_host->onTimer();
@@ -44,18 +89,30 @@
     }
 }
 
+/*
+ * 键盘按下
+ */
 -(void)doKeyDown:(char)key{
     m_native->onKeyDown(key);
 }
 
+/*
+ * 获取标记文字
+ */
 -(String)getMarkedText{
     return m_markText;
 }
 
+/*
+ * 设置是否允许缩放
+ */
 -(void)setAllowZoom:(BOOL)allowZoom{
     m_allowZoom = allowZoom;
 }
 
+/*
+ * 清除所有
+ */
 -(void)clearAll{
     if(m_native){
         delete m_native;
@@ -67,36 +124,59 @@
     m_xml = 0;
 }
 
+/*
+ * 绘制图形
+ */
 -(void)drawRect:(CGRect)rect{
     [self onPaint:rect];
 }
 
+/*
+ * 获取方法库
+ */
 -(FCNative*)getNative{
     return m_native;
 }
 
+/*
+ * 获取绘图对象
+ */
 -(FCPaint*)getPaint{
     return m_paint;
 }
 
+/*
+ * 设置XML对象
+ */
 -(void)setXml:(FCUIXml*)xml{
     m_xml = xml;
 }
 
+/*
+ * 获取XML对象
+ */
 -(FCUIXml*)getXml{
     return m_xml;
 }
 
+/*
+ * 是否首先响应
+ */
 - (BOOL)acceptsFirstResponder{
     return YES;
 }
 
-//鼠标响应
+/*
+ * 鼠标响应
+ */
 -(BOOL)acceptsFirstMouse:(NSEvent *)event
 {
     return YES;
 }
 
+/*
+ * 加载方法
+ */
 -(void)onLoad{
     if(!m_native){
         m_canMove = true;
@@ -122,6 +202,9 @@
     }
 }
 
+/*
+ * 重绘方法
+ */
 -(void)onPaint:(CGRect)rect{
     if(m_native){
         FCSize size = IOSHost::getSize(self.frame.size);
@@ -159,6 +242,9 @@
     }
 }
 
+/*
+ * 设置标记文字
+ */
 - (void)setMarkedText:(id)string selectedRange:(NSRange)selectedRange replacementRange:(NSRange)replacementRange{
     NSAttributedString *nSAttributedString = (NSAttributedString*)string;
     NSString *markText = nSAttributedString.string;
@@ -214,6 +300,9 @@
     return range;
 }
 
+/*
+ * 控制输入法的位置
+ */
 - (NSRect)firstRectForCharacterRange:(NSRange)range actualRange:(nullable NSRangePointer)actualRange{
     FCView *focusedView = m_native->getFocusedView();
     if(focusedView){
@@ -244,6 +333,9 @@
     return arry;
 }
 
+/*
+ * 插入文本
+ */
 - (void)insertText:(id)string replacementRange:(NSRange)replacementRange{
     FCView *focusedView = m_native->getFocusedView();
     m_markText = L"";
@@ -254,6 +346,9 @@
     return NO;
 }
 
+/*
+ * 命令键监听
+ */
 - (void)doCommandBySelector:(SEL)selector{
     FCView *focusedView = m_native->getFocusedView();
     if(focusedView){
@@ -265,6 +360,9 @@
     [super doCommandBySelector:selector];
 }
 
+/*
+ * 键盘按下
+ */
 - (void)keyDown:(NSEvent *)event
 {
     int code = event.keyCode;
@@ -373,6 +471,9 @@
     //[super keyDown:event];
 }
 
+/*
+ * 键盘抬起
+ */
 -(void)keyUp:(NSEvent *)event
 {
     NSString *chars = [event characters];
@@ -381,6 +482,9 @@
     m_native->onKeyUp(keyCode);
 }
 
+/*
+ * 鼠标按下
+ */
 -(void)mouseDown:(NSEvent *)event{
     m_leftIsDown = true;
     if(m_native){
@@ -396,6 +500,9 @@
     }
 }
 
+/*
+ * 鼠标右键按下
+ */
 -(void)rightMouseDown:(NSEvent *)event{
     m_rightIsDown = true;
     if(m_native){
@@ -410,6 +517,9 @@
     }
 }
 
+/*
+ * 鼠标移动
+ */
 -(void)mouseMoved:(NSEvent *)event{
     if(m_native){
         NSPoint nmp = [self convertPoint:[event locationInWindow] fromView:nil];
@@ -435,14 +545,23 @@
     }
 }
 
+/*
+ * 设置窗体
+ */
 -(void)setWindow:(NSWindow*)window{
     m_window = window;
 }
 
+/*
+ * 获取窗体
+ */
 -(NSWindow*)getWindow{
     return m_window;
 }
 
+/*
+ * 鼠标抬起
+ */
 -(void)mouseUp:(NSEvent *)event{
     m_leftIsDown = false;
     if(m_native){
@@ -459,6 +578,9 @@
     }
 }
 
+/*
+ * 鼠标拖动
+ */
 -(void)mouseDragged:(NSEvent *)event{
     if(m_native){
         NSPoint nmp = [self convertPoint:[event locationInWindow] fromView:nil];
@@ -484,6 +606,9 @@
     }
 }
 
+/*
+ * 鼠标右键拖动
+ */
 -(void)rightMouseDragged:(NSEvent *)event{
     if(m_native){
         NSPoint nmp = [self convertPoint:[event locationInWindow] fromView:nil];
@@ -509,6 +634,9 @@
     }
 }
 
+/*
+ * 鼠标滚轮
+ */
 - (void)scrollWheel:(NSEvent *)event{
     if(m_native){
         NSPoint nmp = [self convertPoint:[event locationInWindow] fromView:nil];
@@ -555,14 +683,23 @@
     }
 }
 
+/*
+ * 获取缩放比例
+ */
 -(double)getScaleFactor{
     return m_scaleFactor;
 }
 
+/*
+ * 设置缩放比例
+ */
 -(void)setScaleFactor:(double)value{
     m_scaleFactor = value;
 }
     
+/*
+ * 重置缩放
+ */
 -(void)resetScaleSize{
     CGRect frame = [self frame];
     FCSize clientSize = {(int)frame.size.width, (int)frame.size.height};

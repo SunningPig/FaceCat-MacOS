@@ -10,32 +10,55 @@
 #include "FCDraw.h"
 #include "FCButton.h"
 
-//透明按钮
+/*
+ * 自定义按钮
+ */
 class RibbonButton : public FCButton{
 private:
+    /*
+     * 箭头类型
+     */
     int m_arrowType;
     bool m_isClose;
     bool m_isTabClose;
     bool m_selected;
 public:
+    /*
+     * 构造函数
+     */
     RibbonButton();
+    /*
+     * 析构函数
+     */
     virtual ~RibbonButton();
-    //箭头形状
+    /*
+     * 箭头形状
+     */
     int getArrowType();
     void setArrowType(int arrowType);
-    //是否关闭按钮
+    /*
+     * 是否关闭按钮
+     */
     bool isClose();
     void setClose(bool isClose);
-    //是否多页夹的关闭按钮
+    /*
+     * 是否多页夹的关闭按钮
+     */
     bool isTabClose();
     void setTabClose(bool isTabClose);
-    //是否选中
+    /*
+     * 是否选中
+     */
     void setSelected(bool selected);
     bool isSelected();
 public:
-    //获取要绘制的前景色
+    /*
+     * 获取要绘制的前景色
+     */
     virtual Long getPaintingTextColor();
-    //重绘背景色方法
+    /*
+     * 重绘背景色方法
+     */
     virtual void onPaintBackground(FCPaint *paint, const FCRect& clipRect);
 };
 #endif

@@ -368,7 +368,7 @@ namespace FaceCat{
         /*
          * 获取string的哈希
          */
-        int hashKey(string key){
+        int hashKey(std::string key){
             return hashKey(key.c_str());
         }
         /*
@@ -380,7 +380,7 @@ namespace FaceCat{
 #else
             const NSStringEncoding kEncoding_wchar_t = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingUTF32LE);
 #endif
-            string sKey;
+            std::string sKey;
             @autoreleasepool{
                 char* data = (char*)pKey.data();
                 unsigned size = pKey.size() * sizeof(wchar_t);

@@ -55,7 +55,7 @@ namespace FaceCat{
         /**
          * 获取目录
          */
-        static bool getDirectories(const char *dir, ArrayList<string> *dirs);
+        static bool getDirectories(const char *dir, ArrayList<std::string> *dirs);
         /**
          * 获取目录-宽字符
          */
@@ -71,7 +71,7 @@ namespace FaceCat{
         /**
          * 获取文件
          */
-        static bool getFiles(const char *dir, ArrayList<string> *files);
+        static bool getFiles(const char *dir, ArrayList<std::string> *files);
         /**
          * 获取文件-宽字符
          */
@@ -87,7 +87,7 @@ namespace FaceCat{
         /**
          * 读取文件
          */
-        static bool read(const char *file, string *content);
+        static bool read(const char *file, std::string *content);
         /**
          * 读取文件-宽字符
          */
@@ -112,15 +112,15 @@ namespace FaceCat{
         /*
          * 创建文件夹
          */
-        static bool makeDir (const string& pathName);
+        static bool makeDir (const std::string& pathName);
         /*
          * 获取文件名称
          */
-        static bool getFileName(string srcDirPath , ArrayList<string> *fileNameList);
+        static bool getFileName(std::string srcDirPath , ArrayList<std::string> *fileNameList);
         /*
          * 拷贝文件
          */
-        static void doCopy(string srcDirPath , string desDirPath, ArrayList<string> *fileNameLis);
+        static void doCopy(std::string srcDirPath , std::string desDirPath, ArrayList<std::string> *fileNameLis);
     };
 }
 #endif

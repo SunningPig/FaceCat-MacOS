@@ -78,7 +78,7 @@ namespace FaceCat{
         /**
          * 事件集合
          */
-		map<FCView*, FCEventInfo*> m_events;
+		std::map<FCView*, FCEventInfo*> m_events;
 	public:
         /**
          * 创建事件

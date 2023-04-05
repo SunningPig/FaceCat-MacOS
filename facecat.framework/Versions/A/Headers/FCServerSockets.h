@@ -54,7 +54,7 @@ namespace FaceCat
         /*
         * 启动服务端
         */
-        static int start(int port);
+        static int start(int port, char *token);
         /*
          * 设置限制
          */
@@ -62,11 +62,11 @@ namespace FaceCat
         /*
          * 添加黑名单
          */
-        static int addBlackIP(int socketID, string ip);
+        static int addBlackIP(int socketID, std::string ip);
         /*
          * 移除黑名单
          */
-        static int removeBlackIP(int socketID, string ip);
+        static int removeBlackIP(int socketID, std::string ip);
     };
 }
 #endif

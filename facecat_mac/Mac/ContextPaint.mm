@@ -45,7 +45,7 @@ NSColor* ContextPaint::getUIColor(Long dwPenColor){
 }
 
 NSFont* ContextPaint::getUIFont(FCFont *font){
-    string fstr = FCTran::StringTostring(font->m_fontFamily);
+    std::string fstr = FCTran::StringTostring(font->m_fontFamily);
     NSString *nsstr = [NSString stringWithUTF8String:fstr.c_str()];
     NSFont *uiFont = 0;
     NSString *strFont = getNSString(MyColor::getSystemFont().c_str());
@@ -104,7 +104,7 @@ CGSize ContextPaint::getCGSize(const FCSize& size){
 }
 
 NSString* ContextPaint::getNSString(const wchar_t *str){
-    string fstr = FCTran::StringTostring(str);
+    std::string fstr = FCTran::StringTostring(str);
     return [NSString stringWithUTF8String:fstr.c_str()];
 }
 
@@ -279,7 +279,7 @@ void ContextPaint::closePath(){
 void ContextPaint::drawArc(Long dwPenColor, float width, int style, const FCRect& rect, float startAngle, float sweepAngle){
     if(dwPenColor == FCColor_None) return;
     dwPenColor = getPaintColor(dwPenColor);
-    CGContextSetLineWidth(m_context, min(m_scaleFactorX, m_scaleFactorY) * width);
+    CGContextSetLineWidth(m_context, std::min(m_scaleFactorX, m_scaleFactorY) * width);
     CGContextSetStrokeColorWithColor(m_context, getUIColor(dwPenColor).CGColor);
     int rw = rect.right - rect.left;
     if (rw < 1) rw = 1;
@@ -317,7 +317,7 @@ void ContextPaint::drawBezier(Long dwPenColor, float width, int style, FCPoint *
     if(dwPenColor == FCColor_None) return;
     dwPenColor = getPaintColor(dwPenColor);
     if(cpt < 3) return;
-    CGContextSetLineWidth(m_context, min(m_scaleFactorX, m_scaleFactorY) * width);
+    CGContextSetLineWidth(m_context, std::min(m_scaleFactorX, m_scaleFactorY) * width);
     CGContextSetStrokeColorWithColor(m_context, getUIColor(dwPenColor).CGColor);
     CGContextMoveToPoint(m_context, apt[0].x + m_offsetX, m_wHeight - (apt[0].y + m_offsetY));
     for(int i = 1; i < cpt -2; i = i + 2){
@@ -355,7 +355,7 @@ void ContextPaint::drawEllipse(Long dwPenColor, float width, int style, int left
     //CGContextSetShouldAntialias(m_context, true);
     FCRect newRect = {left + m_offsetX, top + m_offsetY, right + m_offsetX, bottom + m_offsetY};
     affectScaleFactor(&newRect);
-    CGContextSetLineWidth(m_context, min(m_scaleFactorX, m_scaleFactorY) * width);
+    CGContextSetLineWidth(m_context, std::min(m_scaleFactorX, m_scaleFactorY) * width);
     CGColor *cgColor = getUIColor(dwPenColor).CGColor;
     CGContextSetStrokeColorWithColor(m_context, cgColor);
     CGRect cgRect = getCGRect(newRect);
@@ -503,7 +503,7 @@ void ContextPaint::drawLine(Long dwPenColor, float width, int style, int x1, int
         lx2 = (int)(m_scaleFactorX * lx2);
         ly2 = (int)(m_scaleFactorY * ly2);
     }
-    CGContextSetLineWidth(m_context, min(m_scaleFactorX, m_scaleFactorY) * width);
+    CGContextSetLineWidth(m_context, std::min(m_scaleFactorX, m_scaleFactorY) * width);
     CGColor *cgColor = getUIColor(dwPenColor).CGColor;
     CGContextSetStrokeColorWithColor(m_context, cgColor);
     CGContextMoveToPoint(m_context, lx1, m_wHeight - ly1);
@@ -530,7 +530,7 @@ void ContextPaint::drawLine(Long dwPenColor, float width, int style, int x1, int
 void ContextPaint::drawPath(Long dwPenColor, float width, int style){
     if(dwPenColor == FCColor_None) return;
     dwPenColor = getPaintColor(dwPenColor);
-    CGContextSetLineWidth(m_context, min(m_scaleFactorX, m_scaleFactorY) * width);
+    CGContextSetLineWidth(m_context, std::min(m_scaleFactorX, m_scaleFactorY) * width);
     CGContextSetStrokeColorWithColor(m_context, getUIColor(dwPenColor).CGColor);
     switch (style) {
         case 0:{
@@ -561,7 +561,7 @@ void ContextPaint::drawPie(Long dwPenColor, float width, int style, const FCRect
 void ContextPaint::drawPolygon(Long dwPenColor, float width, int style, FCPoint *apt, int cpt){
     if(dwPenColor == FCColor_None) return;
     dwPenColor = getPaintColor(dwPenColor);
-    CGContextSetLineWidth(m_context, min(m_scaleFactorX, m_scaleFactorY) * width);
+    CGContextSetLineWidth(m_context, std::min(m_scaleFactorX, m_scaleFactorY) * width);
     CGContextSetStrokeColorWithColor(m_context, getUIColor(dwPenColor).CGColor);
     int fx = 0, fy = 0;
     for(int i = 0; i< cpt; i++){
@@ -603,7 +603,7 @@ void ContextPaint::drawPolygon(Long dwPenColor, float width, int style, FCPoint 
 void ContextPaint::drawPolyline(Long dwPenColor, float width, int style, FCPoint *apt, int cpt){
     if(dwPenColor == FCColor_None) return;
     dwPenColor = getPaintColor(dwPenColor);
-    CGContextSetLineWidth(m_context, min(m_scaleFactorX, m_scaleFactorY) * width);
+    CGContextSetLineWidth(m_context, std::min(m_scaleFactorX, m_scaleFactorY) * width);
     CGColor *cgColor = getUIColor(dwPenColor).CGColor;
     CGContextSetStrokeColorWithColor(m_context, cgColor);
     int lx = 0, ly = 0;
@@ -653,7 +653,7 @@ void ContextPaint::drawRect(Long dwPenColor, float width, int style, int left, i
         //CGContextSetShouldAntialias(m_context, true);
         FCRect newRect = {left + m_offsetX, top + m_offsetY, right + m_offsetX, bottom + m_offsetY};
         affectScaleFactor(&newRect);
-        CGContextSetLineWidth(m_context, min(m_scaleFactorX, m_scaleFactorY) * width);
+        CGContextSetLineWidth(m_context, std::min(m_scaleFactorX, m_scaleFactorY) * width);
         CGColor *cgColor = getUIColor(dwPenColor).CGColor;
         CGContextSetStrokeColorWithColor(m_context, cgColor);
         CGRect cgRect = getCGRect(newRect);
@@ -700,12 +700,12 @@ void ContextPaint::drawRoundRect(Long dwPenColor, float width, int style, const 
             //CGContextSetShouldAntialias(m_context, true);
             FCRect newRect = {rect.left + m_offsetX, rect.top + m_offsetY, rect.right + m_offsetX, rect.bottom + m_offsetY};
             affectScaleFactor(&newRect);
-            CGContextSetLineWidth(m_context, min(m_scaleFactorX, m_scaleFactorY) * width);
+            CGContextSetLineWidth(m_context, std::min(m_scaleFactorX, m_scaleFactorY) * width);
             CGColor *cgColor = getUIColor(dwPenColor).CGColor;
             CGContextSetStrokeColorWithColor(m_context, cgColor);
             CGRect cgRect = getCGRect(newRect);
             cgRect.origin.y = m_wHeight - cgRect.origin.y - cgRect.size.height;
-            CGPathRef path = cQMPathCreateRoundingRect(cgRect, (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)));
+            CGPathRef path = cQMPathCreateRoundingRect(cgRect, (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)));
             CGContextAddPath(m_context, path);
             switch (style) {
                 case 0:{
@@ -1007,7 +1007,7 @@ void ContextPaint::fillGradientRect(Long dwFirst, Long dwSecond, const FCRect& r
                                                         (CFArrayRef) colors, locations);
     CGPoint startPoint = CGPointMake(CGRectGetMidX(cgRect), CGRectGetMinY(cgRect));
     CGPoint endPoint = CGPointMake(CGRectGetMidX(cgRect), CGRectGetMaxY(cgRect));
-    CGPathRef path = cQMPathCreateRoundingRect(cgRect, (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)));
+    CGPathRef path = cQMPathCreateRoundingRect(cgRect, (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)));
     CGContextAddPath(m_context, path);
     CGContextClip(m_context);
     CGContextDrawLinearGradient(m_context, gradient, startPoint, endPoint, 0);
@@ -1099,7 +1099,7 @@ void ContextPaint::fillRoundRect(Long dwPenColor, const FCRect& rect, int corner
         CGContextSetFillColorWithColor(m_context, cgColor);
         CGRect cgRect = getCGRect(newRect);
         cgRect.origin.y = m_wHeight - cgRect.origin.y - cgRect.size.height;
-        CGPathRef path = cQMPathCreateRoundingRect(cgRect, (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * min(m_scaleFactorX, m_scaleFactorY)));
+        CGPathRef path = cQMPathCreateRoundingRect(cgRect, (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)), (int)(cornerRadius * std::min(m_scaleFactorX, m_scaleFactorY)));
         CGContextAddPath(m_context, path);
         CGContextFillPath(m_context);
         CGPathRelease(path);
